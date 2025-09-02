@@ -1,0 +1,29 @@
+{
+  "name": "@sdui-lab/todo-list",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write \"src/**/*.{js,ts,jsx,tsx,css,md}\"",
+    "clean": "rm -rf .next"
+  },
+  "dependencies": {
+    "next": "15.5.2",
+    "react": "catalog:",
+    "react-dom": "catalog:"
+  },
+  "devDependencies": {
+    "@sdui-lab/ts-config": "workspace:^",
+    "typescript": "catalog:",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "eslint-config-next": "15.4.5",
+    "eslint": "catalog:",
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4"
+  }
+}

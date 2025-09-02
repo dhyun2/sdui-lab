@@ -1,0 +1,17 @@
+# Node
+*.log
+*.log.*
+*.figma-plugin    
+*.lcov
+
+node_modules
+pnpm-debug.log*
+
+.turbo/
+.vscode/*
+.eslintcache
+.prettiercache
+
+out/
+dist/
+coverage/
