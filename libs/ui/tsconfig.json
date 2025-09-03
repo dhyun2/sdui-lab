@@ -1,0 +1,10 @@
+{
+  "extends": "@sdui-lab/ts-config/react",
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "incremental": true
+  },
+  "include": ["**/*.ts", "**/*.tsx"]
+}

@@ -1,5 +1,7 @@
-import '@testing-library/jest-dom';
-import { expect } from 'vitest';
-import { toHaveNoViolations } from 'jest-axe';
+import { expect } from 'vitest'; // Vitest의 expect
+import { toHaveNoViolations } from 'jest-axe'; // 접근성 위반 매처
 
-expect.extend(toHaveNoViolations);
+import * as matchers from '@testing-library/jest-dom/matchers';
+
+expect.extend(matchers);
+expect.extend(toHaveNoViolations); // expect(...).toHaveNoViolations()

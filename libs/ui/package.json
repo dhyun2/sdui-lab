@@ -19,8 +19,15 @@
     "react-dom": "catalog:"
   },
   "devDependencies": {
+    "@sdui-lab/eslint-config": "workspace:^",
+    "@sdui-lab/ts-config": "workspace:^",
     "@testing-library/jest-dom": "^6.8.0",
     "@testing-library/react": "^16.3.0",
+    "@types/jest-axe": "^3.5.9",
+    "@vitest/coverage-v8": "^3.2.4",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
     "jest-axe": "^10.0.0",
     "jsdom": "^26.1.0",
     "vitest": "^3.2.4"

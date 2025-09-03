@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitest/config'; // 테스트 러너 설정 API
+import path from 'path';
 
 export default defineConfig({
   test: {
@@ -17,6 +18,11 @@ export default defineConfig({
         statements: 100,
       },
       reporter: ['text', 'html'],
+    },
+  },
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './src'),
     },
   },
 });

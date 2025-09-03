@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "todo-list": "pnpm -F @sdui-lab/todo-list run"
+    "todo-list": "pnpm -F @sdui-lab/todo-list run",
+    "ui": "pnpm -F @sdui-lab/ui run"
   },
   "keywords": [],
   "author": "",
